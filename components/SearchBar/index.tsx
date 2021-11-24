@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import globalStyles from '../styles/globalStyles'
+import globalStyles from '../../styles/globalStyles'
 
 const StyledSearch = styled.div`
     align-items: center;

@@ -12,7 +12,7 @@ const StyledProduct = styled.div`
     background: ${globalStyles.color.white};
 
     h2 {
-        margin: 60px auto;
+        margin: 2rem auto;
         text-align: center;
     }
 
@@ -20,7 +20,7 @@ const StyledProduct = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
         gap: 2rem;
         li {
             list-style: none;
