@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Card } from "../../components/Card"
-import globalStyles from "../../styles/globalStyles"
+import globalStyles from "../../styles/globalVariables"
 import dummyData from '../../public/data/products';
 import { Button } from "../../components/Button";
 

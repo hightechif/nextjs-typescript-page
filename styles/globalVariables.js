@@ -1,4 +1,4 @@
-const globalStyles = {
+const globalVariables = {
 	color: {
 		primary: '#1F7AE0',
 		hover: '#579BE7',
@@ -16,4 +16,4 @@ const globalStyles = {
 	}
 };
 
-export default globalStyles
+export default globalVariables

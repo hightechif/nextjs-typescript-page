@@ -3,19 +3,21 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faArrowDown } from '@fortawesome/free-solid-svg-icons'
-import globalStyles from '../../styles/globalStyles'
+import globalVariables from '../../styles/globalVariables'
 
 const StyledCard = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border: 1px solid lightgray;
+    border: 1px solid rgba(212, 212, 212, 1);
     border-radius: 15px;
     padding: 1rem;
     box-sizing: border-box;
 
     &:hover {
-        /* box-shadow: 0px 2px 2px 0px rgba(173, 181, 189, 0.16); */
+        -moz-box-shadow: 0 0 50px rgba(173, 181, 189, 0.16);
+        -webkit-box-shadow: 0 0 50px rgba(173, 181, 189, 0.16);
+        box-shadow: 0 0 50px rgba(173, 181, 189, 0.16);
     }
 
     .top {
@@ -30,7 +32,7 @@ const StyledCard = styled.div`
     }
 
     .icon {
-        color: ${globalStyles.color.primary};
+        color: ${globalVariables.color.primary};
         height: 15px;
     }
 `

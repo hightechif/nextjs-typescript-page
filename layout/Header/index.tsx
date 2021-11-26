@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { Button } from "../../components/Button";
 import Image from "next/image"
 import Link from "next/link"
-import globalStyles from "../../styles/globalStyles";
+import globalVariables from "../../styles/globalVariables";
 
 const StyledHeader = styled.header`
-    background: ${globalStyles.color.white};
+    background: ${globalVariables.color.white};
     box-shadow: 0px 2px 2px 0px rgba(173, 181, 189, 0.16);
     width: 100%;
-    color: ${globalStyles.color.gray};
+    color: ${globalVariables.color.gray};
     padding: 0px 50px;
     box-sizing: border-box;
     display: flex;
@@ -23,6 +23,7 @@ const StyledHeader = styled.header`
     
     .logo {
         display: inline-flex;
+        margin: 24px 0;
     }
     
     ul {
@@ -39,7 +40,7 @@ export const Header = () => {
         <StyledHeader>
             <div className='container'>
             <Link href="">
-                <a className="logo"><Image src="/images/logo.svg" height={80} width={80} alt="logo" /></a>
+                <a className="logo"><Image src="/images/logo.png" width="140px" height="30px" alt="logo" /></a>
             </Link>
             <ul>
                 <li>
