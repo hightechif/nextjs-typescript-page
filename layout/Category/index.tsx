@@ -13,6 +13,12 @@ const StyledCategory = styled.div`
         gap: 120px;
         justify-content: space-between;
     }
+    @media screen and (min-width: 359px) and (max-width: 768px){
+        padding: 20px 40px;
+        .category {
+            gap: 40px;
+        }
+    }
 `
 
 export const Category = () => {

@@ -3,22 +3,26 @@ import { SearchBar } from "../../components/SearchBar"
 
 const StyledHero = styled.div`
     background: #FAFDFE;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 60px 120px 240px;
-    
+    padding: 120px 120px 240px;
     width: 100%;
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     h1 {
-        margin: 60px 0 10px;
         max-width: 800px;
         font-size: 48px;
     }
     p {
-        margin: 25px 0;
         font-size: 24px;
+    }
+    @media screen and (min-width: 359px) and (max-width: 768px) {
+        padding: 60px 40px;
     }
 `
 

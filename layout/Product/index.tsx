@@ -10,12 +10,10 @@ const StyledProduct = styled.div`
     align-items: center;
     padding: 60px 120px;
     background: ${globalStyles.color.white};
-
     h2 {
         margin: 2rem auto;
         text-align: center;
     }
-
     ul {
         display: flex;
         justify-content: center;
@@ -29,13 +27,20 @@ const StyledProduct = styled.div`
             color: ${globalStyles.color.primary};
         }
     }
-
     .card-wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 3rem;
+    }
+    @media screen and (min-width: 359px) and (max-width: 768px) {
+        padding: 30px 50px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 `
 

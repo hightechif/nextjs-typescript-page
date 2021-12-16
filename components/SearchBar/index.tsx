@@ -29,6 +29,30 @@ const StyledInput = styled.input`
     &::placeholder {
         color: ${globalVariables.color.soft_gray};
     }
+    @media screen and (max-width: 767px) {
+        width: 250px;
+        height: 55px;
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            white-space:pre-line;  
+            position:relative;
+            top:-10px;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            white-space:pre-line;  
+            position:relative;
+            top:-10px;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            white-space:pre-line;  
+            position:relative;
+            top:-10px;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            white-space:pre-line;  
+            position:relative;
+            top:-10px;
+        }
+    }
 `
 
 interface Props {

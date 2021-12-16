@@ -12,13 +12,17 @@ const StyledDiv = styled.div`
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+    @media screen and (min-width: 359px) and (max-width: 768px){
+        margin: 60px 60px;
+        padding: 20px 35px;
+    }
 `
 
 export const CTA = () => {
     return (
         <StyledDiv>
             <h2>Buat profil produk Anda sekarang, gratis!</h2>
-            <p>Tingkatkan peluang berjumpa dengan calon pembeli produk Anda di SoftConnect.id</p>
+            <p>Tingkatkan peluang berjumpa dengan calon pembeli produk Anda di SoftwareHub</p>
             <Button text="Daftar Sekarang" color={globalVariables.color.primary} />
         </StyledDiv>
     )

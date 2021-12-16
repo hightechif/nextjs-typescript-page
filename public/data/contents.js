@@ -15,8 +15,8 @@ const content = [
     },
     {
         id: 3,
-        title: '“Kami mendapatkan lebih banyak pengunjung dan konversi Sales yang lebih tinggi dari SoftConnect.id”',
-        body: 'Wahyu Bawono\n Marketing Lead ocaindonesia.co.id',
+        title: '“Kami mendapatkan lebih banyak pengunjung dan konversi Sales yang lebih tinggi dari SoftwareHub”',
+        body: 'Wahyu Bawono, - Marketing Lead ocaindonesia.co.id',
         hyperlink: '',
         image: 'sample.png',
     },

@@ -5,7 +5,7 @@ import globalVariables from "../../styles/globalVariables"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedinIn, faInstagram, faYoutube, faTwitter, faMedium } from "@fortawesome/free-brands-svg-icons"
 
-const StyledFooter = styled.div`
+const StyledFooter = styled.footer`
     background: #F9F9F9;
     display: flex;
     gap: 100px;
@@ -35,15 +35,28 @@ const StyledFooter = styled.div`
     .icon {
         width: 15px;
     }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 359px) and (max-width: 768px) {
+        padding: 20px 30px;
+        flex-direction: column;
+        gap: 30px;
+        .hyperlink {
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+        }
+    }
 `
 
 export const Footer = () => {
     return (
         <StyledFooter>
             <div className="about">
-                <Image src="/images/logo2.png" width="140px" height="30px" alt="SoftConnect Logo" />
+                <Image src="/favicon.ico" width="50px" height="50px" alt="SoftConnect Logo" />
                 <p>
-                    SoftConnect.id adalah platform yang menghubungkan software dan layanan bisnis dengan calon pembeli secara mudah dan informatif. Kami memiliki misi untuk mengakselerasi digital ekosistem di Indonesia dengan menumbuhkan kepercayaan para konsumen teknologi.
+                    SoftwareHub adalah platform yang menghubungkan software dan layanan bisnis dengan calon pembeli secara mudah dan informatif. Kami memiliki misi untuk mengakselerasi digital ekosistem di Indonesia dengan menumbuhkan kepercayaan para konsumen teknologi.
                 </p>
             </div>
             <div className="hyperlink">

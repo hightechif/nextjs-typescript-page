@@ -52,4 +52,23 @@ button, input {
     letter-spacing: 0.005em;
 }
 
+@media screen and (min-width: 359px) and (max-width: 768px){
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 0.005em;
+    }
+    
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.005em;
+    }
+    
+    .Subtitle {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.005em;
+    }
+}
 
