@@ -21,8 +21,14 @@ const StyledHero = styled.div`
     p {
         font-size: 24px;
     }
-    @media screen and (min-width: 359px) and (max-width: 768px) {
-        padding: 60px 40px;
+    @media screen and (min-width: 359px) and (max-width: 767px) {
+        padding: 40px 40px;
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 `
 
