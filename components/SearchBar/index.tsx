@@ -30,7 +30,7 @@ const StyledInput = styled.input`
         color: ${globalVariables.color.soft_gray};
     }
     @media screen and (max-width: 767px) {
-        width: 250px;
+        width: 200px;
         height: 55px;
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
             white-space:pre-line;  
